@@ -25,7 +25,7 @@ const session = {
                 break;
             default:
                 break;
-        }
+        } 
 
         return _temp[0]
     },
