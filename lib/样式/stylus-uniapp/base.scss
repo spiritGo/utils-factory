@@ -1,0 +1,163 @@
+/* 原生组件相关 */
+page {
+	font-size: 30rpx;
+}
+
+/* Flex 布局相关 */
+.flex {
+	display: flex;
+}
+
+.flex-column {
+	display: flex;
+	flex-direction: column;
+}
+
+.flex-wrap {
+	flex-wrap: wrap;
+}
+
+.flex-1 {
+	flex: 1;
+}
+
+.flex-2 {
+	flex: 2;
+}
+
+.align-center {
+	align-items: center;
+}
+
+.justify-center {
+	justify-content: center;
+}
+
+.justify-between {
+	justify-content: space-between;
+}
+
+.clear-shrink {
+	flex-shrink: 0;
+}
+
+/* 内外边距 */
+.m-10 {
+	margin: 10rpx;
+}
+
+.mx-10 {
+	margin-left: 10rpx;
+	margin-right: 10rpx;
+}
+
+.my-10 {
+	margin-top: 10rpx;
+	margin-bottom: 10rpx;
+}
+
+.mt-10 {
+	margin-top: 10rpx;
+}
+
+.mr-10 {
+	margin-right: 10rpx;
+}
+
+.mb-10 {
+	margin-bottom: 10rpx;
+}
+
+.ml-10 {
+	margin-left: 10rpx;
+}
+
+.m-20 {
+	margin: 20rpx;
+}
+
+.mx-20 {
+	margin-left: 20rpx;
+	margin-right: 20rpx;
+}
+
+.my-20 {
+	margin-top: 20rpx;
+	margin-bottom: 20rpx;
+}
+
+.mt-20 {
+	margin-top: 20rpx;
+}
+
+.mr-20 {
+	margin-right: 20rpx;
+}
+
+.mb-20 {
+	margin-bottom: 20rpx;
+}
+
+.ml-20 {
+	margin-left: 20rpx;
+}
+
+.p-10 {
+	padding: 10rpx;
+}
+
+.px-10 {
+	padding-left: 10rpx;
+	padding-right: 10rpx;
+}
+
+.py-10 {
+	padding-top: 10rpx;
+	padding-bottom: 10rpx;
+}
+
+.pt-10 {
+	padding-top: 10rpx;
+}
+
+.pr-10 {
+	padding-right: 10rpx;
+}
+
+.pb-10 {
+	padding-bottom: 10rpx;
+}
+
+.pl-10 {
+	padding-left: 10rpx;
+}
+
+.p-20 {
+	padding: 20rpx;
+}
+
+.px-20 {
+	padding-left: 20rpx;
+	padding-right: 20rpx;
+}
+
+.py-20 {
+	padding-top: 20rpx;
+	padding-bottom: 20rpx;
+}
+
+.pt-20 {
+	padding-top: 20rpx;
+}
+
+.pr-20 {
+	padding-right: 20rpx;
+}
+
+.pb-20 {
+	padding-bottom: 20rpx;
+}
+
+.pl-20 {
+	padding-left: 20rpx;
+}
