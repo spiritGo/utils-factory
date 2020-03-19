@@ -1,3 +1,4 @@
+/* 此样式要配合 uniapp 项目的自带样式变量表 uni.scss 使用, 除非手动更改或者复制以下使用到的样式变量到本样式头部 */
 /* 原生组件相关 */
 page {
 	font-size: 30rpx;
@@ -160,4 +161,46 @@ page {
 
 .pl-20 {
 	padding-left: 20rpx;
+}
+
+/* 字体相关 */
+.font-28 {
+	font-size: 28rpx;
+}
+
+.font-24 {
+	font-size: 24rpx;
+}
+
+.color-white {
+	color: $uni-text-color-inverse;
+}
+
+.color-black {
+	color: $uni-text-color;
+}
+
+.line-height-15 {
+	line-height: 1.5;
+}
+
+.line-height-16 {
+	line-height: 1.6;
+}
+
+.font-bold {
+	font-weight: bold;
+}
+
+/* 背景相关 */
+.bg-white {
+	background-color: $uni-bg-color;
+}
+
+.bg-gray {
+	background-color: $uni-bg-color-grey;
+}
+
+.bg-mask {
+	background-color: $uni-bg-color-mask;
 }
