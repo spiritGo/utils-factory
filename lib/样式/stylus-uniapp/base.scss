@@ -38,6 +38,18 @@ page {
 	justify-content: space-between;
 }
 
+.justify-around {
+	justify-content: space-around;
+}
+
+.justify-start {
+	justify-content: flex-start;
+}
+
+.justify-end {
+	justify-content: flex-end;
+}
+
 .clear-shrink {
 	flex-shrink: 0;
 }
@@ -203,4 +215,78 @@ page {
 
 .bg-mask {
 	background-color: $uni-bg-color-mask;
+}
+
+.bg-black {
+	background-color: $uni-text-color;
+}
+
+/* 按钮相关 */
+.btn {
+	display: inline-flex;
+	border-radius: 6rpx;
+	font-size: inherit;
+	transform-origin: 0 0;
+	transition: all 0.2s;
+	background-color: transparent;
+}
+
+.btn::after {
+	display: none;
+}
+
+.sm {
+	transform: scale(0.8);
+}
+
+.mini {
+	transform: scale(0.7);
+}
+
+.btn.button-hover {
+	opacity: 0.7 !important;
+}
+
+.btn.primary {
+	background-color: $uni-color-primary;
+	color: $uni-text-color-inverse;
+}
+
+.btn.success {
+	background-color: $uni-color-success;
+	color: $uni-text-color-inverse;
+}
+
+.btn.warning {
+	background-color: $uni-color-warning;
+	color: $uni-text-color-inverse;
+}
+
+.btn.border {
+	border: 1rpx solid $uni-border-color;
+}
+
+/* 渐变相关 */
+.origin-center {
+	transform-origin: center;
+}
+
+.origin-left {
+	transform-origin: left;
+}
+
+.origin-right {
+	transform-origin: right;
+}
+
+.origin-top {
+	transform-origin: top;
+}
+
+.origin-bottom {
+	transform-origin: bottom;
+}
+
+.origin-00 {
+	transform-origin: 0 0;
 }
